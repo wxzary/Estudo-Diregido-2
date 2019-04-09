@@ -1,1 +1,1 @@
-# Estudo-Diregido-2
+# Estudo-Dirigido-2
