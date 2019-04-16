@@ -1,0 +1,13 @@
+<?php
+
+//Faça um algoritmo que mostre os números de 1 a 100;
+
+for( $s1=100;$s1>=1;$s1--){
+    print "$s1 - ";
+}<?php
+
+//Faça um algoritmo que mostre os números de 1 a 100;
+
+for( $s1=100;$s1>=1;$s1--){
+    print "$s1 - ";
+}
