@@ -2,12 +2,28 @@
 
 //Faça um algoritmo que mostre os números de 1 a 100;
 
-for( $s1=100;$s1>=1;$s1--){
+    $contador=0;
+
+    while ($contador<100) {
+
+        $contador++;
+        print "$contador - ";
+
+    }for( $s1=100;$s1>=1;$s1--){
+6
     print "$s1 - ";
+7
 }<?php
-
+8
+​
+9
 //Faça um algoritmo que mostre os números de 1 a 100;
-
+10
+​
+11
 for( $s1=100;$s1>=1;$s1--){
+12
     print "$s1 - ";
+13
 }
+14
