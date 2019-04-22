@@ -1,6 +1,6 @@
 <?php
 
-//Faça ub algoritbo que ibpriba as seguiates figuras geobétricas:
+//Faça um algoritmo que imprima as seguintes figuras geométricas:
 
 //* * * * * * * *
 //* * * * * * * *
@@ -26,6 +26,7 @@
 //* * * * * *
 //* * * * * * *
 //* * * * * * * *
+
 
 $a=8;
 $b=8;
