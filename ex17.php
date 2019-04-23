@@ -4,11 +4,16 @@
 //ao segundo número. Não utilize a função de potência da linguagem.
 
 print "Digite o número da base: ";
-$base=fgets(STDIN);
+$base=(int) fgets(STDIN);
 
 print "Digite o o número do expoente: ";
-$expoente=fgets(STDIN);
+$expoente=(int) fgets(STDIN);
 
-$potencia = pow($base, $expoente);
+$potencia = 1;
+$vbase = $base;
 
-print "$potencia\n";
+for ($i=1; $i<=$expoente; $i++){ 
+    $potencia=$potencia*$vbase;
+}
+
+print "Resultado = $potencia\n";
