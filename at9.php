@@ -11,6 +11,8 @@
     print "Digite mais um número: ";
     $n3 = (int) fgets (STDIN);
 
+    print "Ordem decresente:\n";
+
     if (($n1 > $n2) and ($n1>$n3)){
         print "$n1 \n";
      }
