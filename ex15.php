@@ -1,39 +1,27 @@
 <?php
 
-//Faça um programa que leia 5 números e informe o maior número.
+//Faça um programa que leia 5 números e informe a soma e a média dos números.
 
 print "Digite o 1° número: ";
-$n1= fgets (STDIN);
+$n1=(int) fgets(STDIN);
 
 print "Digite o 2° número: ";
-$n2= fgets (STDIN);
+$n2=(int) fgets(STDIN);
 
 print "Digite o 3° número: ";
-$n3= fgets (STDIN);
+$n3=(int) fgets(STDIN);
 
 print "Digite o 4° número: ";
-$n4= fgets (STDIN);
+$n4=(int) fgets(STDIN);
 
 print "Digite o 5° número: ";
-$n5= fgets (STDIN);
+$n5=(int) fgets(STDIN);
 
 
-if ($n1>=$n2 and $n1>=$n3 and $n1>=$n4 and $n1>=$n5){
-    print "O maior número é $n1";
-}
+$soma=$n1+$n2+$n3+$n4+$n5;
 
-if ($n2>=$n1 and $n2>=$n3 and $n2>=$n4 and $n2>=$n5){
-    print "O maior número é $n2";
-}
+$media=$soma/5;
 
-if ($n3>=$n1 and $n3>=$n2 and $n3>=$n4 and $n3>=$n5){
-    print "O maior número é $n3";
-}
+print "A soma dos números $n1, $n2, $n3, $n4 e $n5 é igual a $soma,\n";
 
-if ($n4>=$n1 and $n4>=$n2 and $n4>=$n3 and $n4>=$n5){
-    print "O maior número é $n4";
-}
-
-if ($n5>=$n1 and $n5>=$n2 and $n5>=$n3 and $n5>=$n4){
-    print "O maior número é $n5";
-}
+print "e a média foi $media \n";
