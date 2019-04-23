@@ -6,14 +6,14 @@
 //A mensagem "Aprovado com Distinção", se a média for igual a dez. 
 
 print "Digite sua primeira nota: ";
-$n1 = fgets (STDIN);
+$n1 = (int) fgets(STDIN);
 
 print "Digite sua segunda nota: ";
-$n2 = fgets (STDIN);
+$n2 = (int) fgets(STDIN);
 
 $media = ($n1+$n2)/2;
 
-    print "N1 / $n1";
+    print "N1 / $n1\n";
     print "N2 / $n2\n";
     print "Média / $media \n\n";
 
