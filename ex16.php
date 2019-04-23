@@ -17,10 +17,11 @@ $n4=fgets (STDIN);
 print "Digite o 5° número: ";
 $n5=fgets (STDIN);
 
+
 $soma=$n1+$n2+$n3+$n4+$n5;
 
 $media=$soma/5;
 
-print "A soma dos números $n1 $n2 $n3 $n4 e $n5  $soma \n ";
+print "A soma dos números: $n1$n2$n3$n4 e $n5 é igual a $soma\n";
 
-print "A média foi $media \n";
+print "E a média foi $media \n";
