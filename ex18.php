@@ -19,4 +19,4 @@ do {print "Digite um número: ";
     while($vezes<=10);
 
     
-print "Quantidade de número(s) impar(es): $nimpar\nQuantidade de número(s) par(es): $npar \n";
+print "Quantidade de números ímpares: $nimpar\nQuantidade de número(s) par(es): $npar \n";
