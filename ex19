@@ -3,20 +3,19 @@
 //A série de Fibonacci é formada pela sequência 0,1,1,2,3,5,8,13,21,34,55, [...] Faça um programa que
 //gere a série até que o valor seja maior que 500.
 
-print "Deseja Fibonacciticiar até quanto? ";
-$fibonacciticiar= (float) fgets(STDIN);
+print "Fibonacci (0 a +500)\n";
 
-print "(O valor *provavelmente* vai ultrapassar o digitado)\n";
-sleep (1);
+$a1=0;
+$a2=1;
+$n=16;
+$c=1;
 
-$fibonacci=0;
-$fibonaccinovo=1;
+while ($c <= $n){
+$a3 = $a1 + $a2; 
 
-print "$fibonacci $fibonaccinovo ";
+print "$a1 \n";
+$a1=$a2;
+$a2=$a3;
+$c=$c + 1;
 
-
-while ($fibonaccimaisnovo2<$fibonacciticiar)
-    {$fibonaccinovo2=$fibonacci+$fibonaccinovo;
-     print "$fibonaccinovo2 ";
-     $fibonacci= $fibonaccinovo;
-     $fibonaccinovo= $fibonaccinovo2;}
+}
